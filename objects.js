@@ -11,3 +11,18 @@ var ourDog = {
 };
 
 //name legs tails and friends are all PROPERTIES
+
+
+//Accessing Object Properties with Variables
+
+var testObj = {
+  12: "Hogg",
+  16: "Jones",
+  19: "Laidlaw"
+};
+
+
+var playerNumber = 16 // 
+var player = testObj[playerNumber];   
+
+//This will look up number 16 then assign the name to the var "player" - in this case Jones.
